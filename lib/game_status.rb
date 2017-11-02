@@ -10,9 +10,10 @@ end
 
 def won?(board)
   if board = " "
-    return false
-  elsif board.to_a =WIN_COMBINATIONS
-    return WIN_COMBINATIONS
+  return false
+    [0,1,2].select do |index|
+    index.
+  end
 end
 
 end
