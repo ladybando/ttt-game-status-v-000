@@ -10,11 +10,11 @@ WIN_COMBINATIONS= [ [0,1,2], [3,4,5], [6,7,8],
 
 def won?(board)
   def position_taken?(board, index)
-  if board[index] == " " || board[index] == "" || board[index] == nil
-    false
-  else
-end
-end
+    if board[index] == " " || board[index] == "" || board[index] == nil
+      false
+    else
+    end
+  end
 
 end
 
