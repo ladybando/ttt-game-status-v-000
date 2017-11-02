@@ -20,9 +20,7 @@ end
 end
 
 def full?(board)
-  if position_taken? == false
-    return true
-  end
+WIN_COMBINATIONS.any?{|i| i >= 8}
  end
 
 def draw?(board)
