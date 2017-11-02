@@ -21,7 +21,7 @@ end
 
 def full?(board)
  board.any?{|i| i != " "}
- board.all?{|i| i = "X" || "O" }
+ board.none?{|i| i = "X" || "O" }
  end
 
 def draw?(board)
