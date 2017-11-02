@@ -20,8 +20,8 @@ end
 end
 
 def full?(board)
- board.any?{|i| i != " "}
- board.all?{|i| i != "X" || "O"}
+ board.any?{|i| i != " " || "X" || "O"}
+ board.?{|i| i = "X" || "O"}
 end
 
 def draw?(board)
