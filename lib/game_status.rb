@@ -20,9 +20,7 @@ end
 end
 
 def full?(board)
-if board.none?{|i| i = " "}
-else board.all?{|i| i = "X" || "O"}
-end
+ board.all? { |occupied| occupied != " "  }
 end
 
 def draw?(board)
