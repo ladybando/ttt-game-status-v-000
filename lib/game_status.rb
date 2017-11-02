@@ -24,10 +24,6 @@ def won?(board)
     end
     false
   end
-  end
-end
-
-end
 
 def full?(board)
  board.all? { |i| i != " "  }
