@@ -24,6 +24,7 @@ if board.none?{|i| i = " "}
 else
   true
 end
+end
 
 def draw?(board)
 end
