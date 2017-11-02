@@ -21,7 +21,7 @@ end
 
 def full?(board)
 board.any?{|i| i != " "}
-  
+
  end
 
 def draw?(board)
