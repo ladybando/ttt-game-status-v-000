@@ -21,9 +21,9 @@ end
 
 def full?(board)
 if board.none?{|i| i = " "}
-else
-  false
-end
+return true
+else 
+  return false
 end
 
 def draw?(board)
