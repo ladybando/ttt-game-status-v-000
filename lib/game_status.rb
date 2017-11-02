@@ -21,7 +21,7 @@ end
 
 def full?(board)
  if board.any?{|i| i != " "}
- else 
+ else
    nil
  end
 
