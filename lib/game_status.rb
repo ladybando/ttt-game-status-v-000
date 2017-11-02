@@ -20,9 +20,8 @@ end
 end
 
 def full?(board)
- if board.any?{|i| i != " "}
- else
-   nil
+board.all? do |index|
+  index = " "
  end
 end
 
