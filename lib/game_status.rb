@@ -23,7 +23,6 @@ def full?(board)
  if board.any?{|i| i != " "}
  false
  else board.any?{|i| i = "X" && "O"}
- true
  end
 end
 
