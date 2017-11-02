@@ -24,7 +24,11 @@ def full?(board)
 end
 
 def draw?(board)
-  board.all?{|i| i = "X" || "O"}
+  if !won?(board) && full?(board)
+    return true
+  else
+    return false
+  end
 end
 
 def over?(board)
