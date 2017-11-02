@@ -20,8 +20,9 @@ end
 end
 
 def full?(board)
- board.any?{|i| i != " "}
- board.none?{|i| i = "X" || "O" }
+ if board.any?{|i| i != " "}
+ else 
+   nil
  end
 
 def draw?(board)
