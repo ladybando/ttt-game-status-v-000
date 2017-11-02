@@ -20,6 +20,8 @@ end
 end
 
 def full?(board)
+  if position_taken? = true
+    return false
 end
 
 def draw?(board)
