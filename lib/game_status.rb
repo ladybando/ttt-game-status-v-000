@@ -20,7 +20,7 @@ end
 end
 
 def full?(board)
-WIN_COMBINATIONS.any?{|i| i > 8}
+WIN_COMBINATIONS.any?{|board| board > 8}
  end
 
 def draw?(board)
