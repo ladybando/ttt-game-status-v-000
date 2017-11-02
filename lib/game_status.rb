@@ -20,7 +20,7 @@ end
 end
 
 def full?(board)
- board.all? { |occupied| occupied != " "  }
+ board.all? { |i| i != " "  }
 end
 
 def draw?(board)
