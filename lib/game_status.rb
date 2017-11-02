@@ -25,6 +25,7 @@ if board.all?{|i| i = " "}
 else
   true
 end
+end
 
 def draw?(board)
 end
