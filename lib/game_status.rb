@@ -21,9 +21,7 @@ end
 
 def full?(board)
 if board.none?{|i| i = " "}
-return false
-else
-  return false
+else board.all?{|i| i = "X" || "O"}
 end
 end
 
