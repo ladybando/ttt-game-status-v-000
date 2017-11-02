@@ -12,7 +12,8 @@ def won?(board)
   if board = " "
   return false
     [0,1,2].select do |index|
-    index.
+    index.to_a[0
+    ]
   end
 end
 
