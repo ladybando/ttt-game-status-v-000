@@ -42,13 +42,7 @@ def over?(board)
 end
 
 def winner?(board)
-  if won?(board) != nil
-     won?(board).each do |x|
-       if board[x] == "X"
-         return "X"
-       else
-         return "O"
-      end
-   end
-   end
+  if won?(board)
+   board[won?(board)[0]]
+ end
 end
