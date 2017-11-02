@@ -11,7 +11,8 @@ end
 def won?(board)
   if board = " "
   return false
-    [0,1,2].select do |index|
+    
+    WIN_COMBINATIONS.select do |index|
     index.to_a[i]
   end
 end
