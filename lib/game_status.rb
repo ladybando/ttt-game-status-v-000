@@ -21,7 +21,7 @@ end
 
 def full?(board)
 if board.none?{|i| i = " "}
-return true
+return false
 else
   return true
 end
