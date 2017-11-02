@@ -20,12 +20,10 @@ end
 end
 
 def full?(board)
-board.all? do |index|
-if  index = " "
-  return true
-else false
-end
- end
+if board.all?{|i| i != " "}
+  true
+else
+  false 
 end
 
 def draw?(board)
