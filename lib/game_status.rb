@@ -24,6 +24,7 @@ def full?(board)
  else
    nil
  end
+end
 
 def draw?(board)
 end
