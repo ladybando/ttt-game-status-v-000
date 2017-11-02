@@ -21,7 +21,7 @@ end
 
 def full?(board)
   if position_taken? == true
-    return false
+    return true
   end
  end
 
