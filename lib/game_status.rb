@@ -26,6 +26,7 @@ end
 end
 
 def draw?(board)
+  board.all?{|i| = "X" || "O"}
 end
 
 def over?(board)
